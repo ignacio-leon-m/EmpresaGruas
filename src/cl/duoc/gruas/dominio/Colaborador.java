@@ -1,6 +1,6 @@
 package cl.duoc.gruas.dominio;
 
-public abstract class Colaborador {
+public abstract class Colaborador implements Calculable{
     //ATRIBUTOS
     protected String nombre;
     protected String rut;
